@@ -1,0 +1,29 @@
+{
+  "name": "nv-weblog-server",
+  "version": "1.0.0",
+  "description": "NodeJS VueJS Weblog Server (Backend).",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nattapon Kumyaito",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sequelize": "^5.0.0-0",
+    "sqlite3": "^5.0.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "bluebird": "^3.5.3",
+    "joi": "^13.7.0",
+    "jsonwebtoken": "^8.4.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-export-default-from": "^7.10.4"
+  }
+}
