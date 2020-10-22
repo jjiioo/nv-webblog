@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        tools:context="com.plasmadev.captiondad.cardview_anime.Animetwo">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="417dp"
+                android:src="@drawable/attack1" />
+
+        </FrameLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="#161616">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="16dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="9dp"
+                                android:layout_height="23dp"
+                                android:layout_marginLeft="16dp"
+                                android:src="@drawable/star" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:text="5.0"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20dp"
+                                    app:fontFamily="@font/kanit_medium" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="RATE"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="14dp"
+                                    app:fontFamily="@font/kanit_medium" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:src="@drawable/split" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:text="Dark Fantasy"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20dp"
+                                    app:fontFamily="@font/kanit_medium" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="GENRE"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="14dp"
+                                    app:fontFamily="@font/kanit_medium" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="#161616">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity=""
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:text="เนื้อเรื่องย่อ"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20dp"
+                                    app:fontFamily="@font/kanit_medium" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:justificationMode="inter_word"
+                                    android:text="'เอเลน เยเกอร์' เด็กหนุ่มที่ต้องเสียแม่ไปจากเหตุการณ์ไททันบุกเข้าทำลายกำแพงมาเรีย(Wall Maria)ในเขตชิกันชินะ เพราะต้องการแก้แค้นให้กับแม่ของ เอเรน, มิคาสะ(เด็กสาวที่ครอบครัวเยเกอร์ได้รับมาอาศัยด้วย)และอาร์มิน(เพื่อนสมัยเด็กของทั้งคู่)จึงเข้าศึกษาที่โรงเรียนทหาร สังกัดรุ่นที่ 104 เพื่อตั้งเป้าหมายจะเป็นทีมสำรวจ ออกไปสู้รบกับไททัน และออกไปดูโลกภายนอกกำแพง
+เวลาผ่านมาเกือบห้าปี หลังจากเหตุการณ์ที่ไททัน 60 เมตรบุกทลายกำแพงมาเรีย(Wall Maria)ทำให้มนุษย์ชาติต้องถอยร่นไปยังกำแพงโรเซ่ (Wall Rose) กำแพงชั้นต่อไป เอเรน และพรรคพวกรุ่น 104 อีกไม่นานก็จะได้เลื่อนขั้นจากทหารฝึกหัดไปสังกัดกองทหารต่างๆ ในเวลาพักของวันธรรมดาๆวันหนึ่ง ไททัน 60 เมตรตัวเดิมได้บุกเข้ามาอีกครั้ง และบุกเข้าทำลายกำแพงโรเซ่(Wall Rose)ทางเขตทรอสทำให้ไททันบุกเข้ามากวาดล้างมนุษย์อีกครั้ง ประจวบเหมาะกับที่ทหารหน่วยสำรวจได้ออกไปสำรวจนอกกำแพงในระหว่างนั้นพอดี ทำให้ทหารฝึกหัดทุกหน่วยได้รับคำสั่งให้ออกกวาดล้างไททัน และคุ้มครองให้ประชาชนทุกคนหนีไปยังกำแพงชีน่า (Wall Sina)กำแพงชั้นสุดท้ายให้ได้ ในเหตุการณ์ครั้งนี้ทำให้ทหารฝึกหัดจำนวนมากต้องเสียชีวิตลงมากมาย รวมทั้งเอเรนที่ถูกไททันกินเข้าไปเพื่อช่วยเหลือเพื่อนของเขาอาร์มิน แต่เอเรนก็รอดตายมาได้ เพราะพลังบางอย่างที่สามารถแปลงร่างเป็นไททันที่เขาเองก็ไม่รู้ที่มาที่ไปของพลังนี้ พร้อมทั้งใช้พลังไททันช่วยปิดตายรูที่กำแพงโรเซ่ และช่วยชีวิตของมนุษย์ชาติเอาไว้ได้"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="14dp"
+                                    app:fontFamily="@font/kanit_medium" />
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="#161616">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity=""
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:text="เว็บไซต์ดูอนิเมะ"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20dp"
+                                    app:fontFamily="@font/kanit_medium" />
+
+                                <ImageView
+                                    android:id="@+id/fairy2"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/icon"/>
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

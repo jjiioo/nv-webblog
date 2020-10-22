@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+    tools:context="com.plasmadev.captiondad.cardview_anime.Animeone">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="417dp"
+                android:src="@drawable/drz1" />
+
+        </FrameLayout>
+
+        <android.support.v7.widget.CardView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="#161616">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="9dp"
+                            android:layout_height="23dp"
+                            android:layout_marginLeft="16dp"
+                            android:src="@drawable/star" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="5.0"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20dp"
+                                app:fontFamily="@font/kanit_medium" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/roboto_regular"
+                                android:text="RATE"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14dp"
+                                app:fontFamily="@font/kanit_medium" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:src="@drawable/split" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="Martial Arts"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20dp"
+                                app:fontFamily="@font/kanit_medium" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/roboto_regular"
+                                android:text="GENRE"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14dp"
+                                app:fontFamily="@font/kanit_medium" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.CardView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="#161616">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity=""
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="เนื้อเรื่องย่อ"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20dp"
+                                app:fontFamily="@font/kanit_medium" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_regular"
+                                android:justificationMode="inter_word"
+                                android:text="หลังจากการแต่งงานของโกคูอีก 5 ปีถัดมา ชาวไซย่าชื่อว่าราดิซได้มายังโลกเพื่อค้นหาว่าทำไมคาคาล็อตน้องชายของตนถึงไม่ได้ทำลายล้างโลกตามคำสั่ง โดยราดิซได้ใช้ สเคาเตอร์เป็นอุปกรณ์ในการค้นหา จนกระทั่งได้มาพบยังบ้านผู้เฒ่าเต่าในขณะที่โกคูได้พาลูกชายมาด้วย(โกฮัง) ซึ่งในตอนนี้เองทำให้ทราบว่าโกคูไม่ใช่ชาวโลกแต่เป็นชาวไซย่านักรบที่แข็งแกร่งที่สุดในจักรวาลและเป็นน้องชายของราดิซ เนื่องจากชาวไซย่าทุกคนนั้นมีหาง แม้ว่าโกคูจะถูกตัดหางขาดไปแล้ว แต่ราดิซรู้ได้ว่าโกคูคือน้องชายของตนเนื่องจากโกฮังผู้เป็นลูกนั้นมีหาง พลังของโกคูในขณะนั้นไม่อาจสู้กับราดิซได้ แต่ด้วยความที่ราดิซเสียดายฝีมือของโกคู จึงยื่นเงื่อนไขเพื่อชวนโกคูมาเป็นพวกและจับตัวโกฮังไปเป็นตัวประกัน โกคูและพิคโกโร่ที่ได้พบกับราดิซก่อนหน้านี้และสะกดรอยมาจนถึงบ้านผู้เฒ่าเต่า  ทั้ง 2 คนจึงได้ตามไปเพื่อเอาตัวโกฮังคืนมา"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14dp"
+                                app:fontFamily="@font/kanit_medium" />
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="#161616">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity=""
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:text="เว็บไซต์ดูอนิเมะ"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20dp"
+                                    app:fontFamily="@font/kanit_medium" />
+
+                                <ImageView
+                                    android:id="@+id/fairy"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/icon"/>
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
